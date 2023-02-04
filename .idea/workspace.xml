@@ -10,10 +10,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LFCwpkKTGDUqMyXAhWHF9XYNxY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +46,7 @@
       <updated>1675457688512</updated>
       <workItem from="1675457689864" duration="16000" />
       <workItem from="1675457923627" duration="4021000" />
-      <workItem from="1675462006582" duration="5458000" />
+      <workItem from="1675462006582" duration="5830000" />
     </task>
     <servers />
   </component>
