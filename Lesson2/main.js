@@ -48,20 +48,20 @@ let obj_Book4 = {
     title: 'The Picture of Dorian Gray',
     pageCount: 320,
     genre: 'novel',
-    author: {name: 'Oscar Wilde', age: 36}
+    author: [{name: 'Oscar Wilde', age: 36}]
 }
 
 let obj_Book5 = {
     title: obj_Book1['title'],
     pageCount: obj_Book1.pageCount,
     genre: obj_Book1.genre,
-    author: {name: 'George R. R. Martin', age: 74}
+    author: [{name: 'George R. R. Martin', age: 74}]
 }
 let obj_Book6 = {
     title: 'Harry Potter and the Cursed Child)',
     pageCount: 336,
     genre: 'Fantasy',
-    author: {name:'Joanne Rowling', age: 57}
+    author: [{name:'Joanne Rowling', age: 57}]
 }
 
 // ------------------------------------------------------------------------
@@ -108,13 +108,13 @@ if (x !== 0) {
 let time = +prompt('enter number from 0 to 59', 0);
 if (time <= 0 || time > 60) {
     console.log('Your number doesnt belong to the quarter');
-} else if ( time < 15) {
+} else if ( time > 0 && time <= 15) {
     console.log('Your number is in the first quarter');
-} else if (time < 30) {
+} else if (time > 15 && time <= 30) {
     console.log('Your number is in the second quarter');
-} else if (time < 45) {
+} else if (time > 30 && time <= 45) {
     console.log('Your number is in the third quarter');
-} else if (time < 60) {
+} else if (time > 45 && time <= 60) {
     console.log('Your number is in the fourth quarter');
 }
 
@@ -124,11 +124,11 @@ if (time <= 0 || time > 60) {
 let day = +prompt('enter number from 0 to 31', 0);
 if (day <= 0 || day > 31) {
     console.log('Your number doesnt belong to the decade of the month');
-} else if (day <= 10) {
+} else if (day > 0 && day <= 10) {
     console.log('Your number is in the first decade of the month');
-} else if (time <= 20) {
+} else if (day > 10 && day <= 20) {
     console.log('Your number is in the second decade of the month');
-} else if (time <= 31) {
+} else if (day > 20 && day <= 31) {
     console.log('Your number is in the third decade of the month');
 }
 
