@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9a9004-87d6-4f7a-86d3-3e6b821345fc" name="Changes" comment="" />
+    <list default="true" id="cc9a9004-87d6-4f7a-86d3-3e6b821345fc" name="Changes" comment="In com1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson2/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,11 +49,23 @@
       <updated>1675457688512</updated>
       <workItem from="1675457689864" duration="16000" />
       <workItem from="1675457923627" duration="4021000" />
-      <workItem from="1675462006582" duration="5830000" />
+      <workItem from="1675462006582" duration="7685000" />
     </task>
+    <task id="LOCAL-00001" summary="In com1">
+      <created>1675550184042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675550184043</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="In com1" />
+    <option name="LAST_COMMIT_MESSAGE" value="In com1" />
   </component>
 </project>
