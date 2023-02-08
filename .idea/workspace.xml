@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9a9004-87d6-4f7a-86d3-3e6b821345fc" name="Changes" comment="Correction of errors">
+    <list default="true" id="cc9a9004-87d6-4f7a-86d3-3e6b821345fc" name="Changes" comment="Correction of errors 1">
+      <change afterPath="$PROJECT_DIR$/Lesson3/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson3/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson3/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -50,7 +61,9 @@
       <workItem from="1675457689864" duration="16000" />
       <workItem from="1675457923627" duration="4021000" />
       <workItem from="1675462006582" duration="9149000" />
-      <workItem from="1675705818478" duration="2042000" />
+      <workItem from="1675705818478" duration="2072000" />
+      <workItem from="1675716321284" duration="2222000" />
+      <workItem from="1675772337851" duration="12338000" />
     </task>
     <task id="LOCAL-00001" summary="In com1">
       <created>1675550184042</created>
@@ -66,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675695417102</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Correction of errors 1">
+      <created>1675715398761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675715398761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="In com1" />
     <MESSAGE value="Correction of errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction of errors" />
+    <MESSAGE value="Correction of errors 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction of errors 1" />
   </component>
 </project>

@@ -1,0 +1,20 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.product-card{
+    width: 300px;
+    height: 250px;
+    border: 1.5px black solid;
+    box-shadow: 15px 15px 15px silver;
+    text-align: center;
+}
+
+
+.product-image {
+    width: 150px;
+}
