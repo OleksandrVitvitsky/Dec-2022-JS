@@ -183,3 +183,95 @@ for (let i = 0; i < users.length; i++) {
     }
 }
 document.write(`</ul>`);
+document.write(`<br><hr><br>`);
+document.write(`<h2 class = "Additional1"> Додаткові завдання</h2>`);
+document.write(`<h3>--Task #1: Cтворити масив з:
+- з 5 числових значень
+- з 5 стічкових значень
+- з 5 значень стрічкового, числового та булевого типу
+- та вивести його </h3>`);
+let array1 = [1,2,3,4,5];
+let array2 = ['a','b','c','d','e'];
+let array3 = [array1, array2,!!0,!!'',!!'asd',!!23];
+
+for (let i = 0; i < array3.length; i++) {
+    const array3Element = array3[i];
+    document.write(`<p>${array3Element}</p>`);
+
+}
+document.write(`<br><hr><br>`);
+document.write(`<h3>  Task #2: Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. 
+Вивести в консоль</h3>`);
+let arr4 = [];
+arr4[0] = '1';
+arr4[1] = 'qwe';
+arr4[2] = 'asd';
+for (let i = 0; i < arr4.length; i++) {
+    const arr4Element = arr4[i];
+    document.write(`<p>${arr4Element}</p>`);
+}
+document.write(`<br><hr><br>`);
+document.write(`<h3> <pre> Task #3: є масив [2,17,13,6,22,31,45,66,100,-18] :
+1. перебрати його циклом while
+2. перебрати його циклом for
+3. перебрати циклом while та вивести  числа тільки з непарним індексом
+4. перебрати циклом for та вивести  числа тільки з непарним індексом
+5. перебрати циклом while та вивести  числа тільки парні  значення
+6. перебрати циклом for та вивести  числа тільки парні  значення
+7. замінити кожне число кратне 3 на слово "okten"
+8. вивести масив в зворотньому порядку.
+9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)</pre></h3>`);
+let arr5 = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18] ;
+let k = 0 ;
+while (k < arr5.length ){
+     console.log(arr5[k]);
+    k++;
+}
+for (const number of arr5) {
+    console.log(number);
+}
+k = 0;
+while (k < arr5.length) {
+    if(k % 2 ) {
+    console.log(arr5[k]);
+    }
+    k++;
+}
+for (let k = 0; k < arr5.length; k++) {
+    const arr5Element = arr5[k];
+    if (k % 2) {
+        console.log(arr5Element);
+    }
+
+}
+k = 0;
+while (k < arr5.length) {
+    if (k % 2 === 0) {
+        console.log(arr5[k]);
+    }
+    k++;
+}
+for (let k = 0; k < arr5.length; k++) {
+    const arr5Element = arr5[k];
+    if (k % 2 === 0) {
+        console.log(arr5Element);
+    }
+
+}
+for (let i = 0; i < arr5.length; i++) {
+    const arr5Element = arr5[i];
+    if(arr5Element % 3 === 0 ) {
+        arr5[i] = 'okten';
+    }
+}
+console.log(arr5);
+
+for (let i = arr5.length-1; i >= 0; i--) {
+    const arr5Element = arr5[i];
+    console.log(arr5Element);
+
+}
+document.write(`<br><hr><br>`);
+document.write(`<h3><u> Task #3: Використовуючи данні з масиву, за допомоги document.write та циклу побудувати структуру по шаблону
+Зробити адекватну стилізацію. Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон</u></h3>`);
+
