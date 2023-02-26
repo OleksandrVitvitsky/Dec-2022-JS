@@ -63,12 +63,12 @@ console.log(Clients);
 //     -- changeYear (newValue) - змінює рік випуску на значення newValue
 //     -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 function PrintAboutCar(obj){
-    for (const Key in obj) {
-        if ((typeof obj[Key] !== 'function')) {
-            if (typeof obj[Key] === 'object') {
-                PrintAboutCar(obj[Key]);
+    for (const key in obj) {
+        if ((typeof obj[key] !== 'function')) {
+            if (typeof obj[key] === 'object') {
+                PrintAboutCar(obj[key]);
             } else {
-                console.log(`${Key}  - ${obj[Key]}`);
+                console.log(`${key}  - ${obj[key]}`);
             }
         }
     }
@@ -163,17 +163,17 @@ class Cinderella{
     }
 }
 
-let ArrayLotOfCinderella = new Array();
-ArrayLotOfCinderella.push(new Cinderella('Olga', 31, 35));
-ArrayLotOfCinderella.push(new Cinderella('Alisa', 47, 41));
-ArrayLotOfCinderella.push(new Cinderella('Tanya', 23, 38));
-ArrayLotOfCinderella.push(new Cinderella('Sonya',18, 37));
-ArrayLotOfCinderella.push(new Cinderella('Viktorika', 35, 40));
-ArrayLotOfCinderella.push(new Cinderella('Svitlana', 36, 41));
-ArrayLotOfCinderella.push(new Cinderella('Katya', 26,35));
-ArrayLotOfCinderella.push(new Cinderella('Olena',50 , 40));
-ArrayLotOfCinderella.push(new Cinderella('Alina',33,33));
-ArrayLotOfCinderella.push(new Cinderella('Anna',32,38));
+let arrayLotOfCinderella = new Array();
+arrayLotOfCinderella.push(new Cinderella('Olga', 31, 35));
+arrayLotOfCinderella.push(new Cinderella('Alisa', 47, 41));
+arrayLotOfCinderella.push(new Cinderella('Tanya', 23, 38));
+arrayLotOfCinderella.push(new Cinderella('Sonya',18, 37));
+arrayLotOfCinderella.push(new Cinderella('Viktorika', 35, 40));
+arrayLotOfCinderella.push(new Cinderella('Svitlana', 36, 41));
+arrayLotOfCinderella.push(new Cinderella('Katya', 26,35));
+arrayLotOfCinderella.push(new Cinderella('Olena',50 , 40));
+arrayLotOfCinderella.push(new Cinderella('Alina',33,33));
+arrayLotOfCinderella.push(new Cinderella('Anna',32,38));
 
 class PrinceCreator{
     constructor(name, age, sizeOfShoe) {
@@ -185,10 +185,10 @@ class PrinceCreator{
 
 let prince = new PrinceCreator('Jango',22, 40);
 
-for (const Element of ArrayLotOfCinderella) {
-    if (Element.foot_size === prince.sizeOfShoe){
-        console.log(`Our cinderella is  ${Element.name}`);
+for (const element of arrayLotOfCinderella) {
+    if (element.foot_size === prince.sizeOfShoe){
+        console.log(`Our cinderella is  ${element.name}`);
     }
 }
-let OurCinderella = ArrayLotOfCinderella.find(obj => obj.foot_size === prince.sizeOfShoe );
-console.log(`finded ${OurCinderella.name}`)
+let ourCinderella = arrayLotOfCinderella.find(obj => obj.foot_size === prince.sizeOfShoe );
+console.log(`finded ${ourCinderella.name}`)
