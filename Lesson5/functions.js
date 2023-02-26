@@ -107,9 +107,9 @@ writeObj(arr);
  // створити функцію яка повертає найменьше число з масиву
   let getMinNumber = (array) => {
   let minElement = array[0];
-    for (const Element of array) {
-        if (Element < minElement) {
-            minElement = Element;
+    for (const element of array) {
+        if (element < minElement) {
+            minElement = element;
         }
     }
     return minElement;
@@ -123,8 +123,8 @@ document.write(`<h2> Min number is ${getMinNumber([11, 22, 4, 50, -1, 0])}</h2>`
 
 let sum = (array) => {
    sum = 0;
-    for (const Element of array) {
-        sum = sum + Element;
+    for (const element of array) {
+        sum = sum + element;
     }
     return sum;
 }

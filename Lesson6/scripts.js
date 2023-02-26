@@ -134,7 +134,7 @@ let cardsArray = [6 ,7 , 8 , 9 , 10 ,'J','Q','K','A'];
 const Deck =[];
 for (const suitItem of cardSuitsArray) {
     let color = 'red';
-    if (suitItem === 'spade' || suitItem === 'clubs' ){
+    if (suitItem === 'spades' || suitItem === 'clubs' ){
       color = 'black';
     }
     for (const cardItem of cardsArray) {
