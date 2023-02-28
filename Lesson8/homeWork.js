@@ -9,17 +9,18 @@ function CreateUser(id, name, surname, email, phone) {
 }
 
 const Users = [];
-Users.push(new CreateUser(10, 'Han', 'Solo','hanSolo@example.com', '28076-543-22-11'));
-Users.push(new CreateUser(9, 'Obi-Wan', 'Kenobi','obiKenobi@example.com', '38098-772-12-33'));
-Users.push(new CreateUser(3, 'Luke', 'Skywalker','SkywalkerL@example.com', '21086-535-27-78'));
-Users.push(new CreateUser(2, 'Darth', 'Vader','dVader@example.com', '28336-143-02-91'));
-Users.push(new CreateUser(5, 'Yoda', 'Jedi Master','Yoda@example.com', '38076-343-32-11'));
-Users.push(new CreateUser(8, 'Princess', 'Leia','prLeia@example.com', '38046-643-42-91'));
-Users.push(new CreateUser(7, 'R2', 'D2','D2@example.com', '38098-836-11-99'));
-Users.push(new CreateUser(6, 'Chewbacca', 'Wookiee','Wookiee@example.com', '28376-576-22-90'));
-Users.push(new CreateUser(4, 'Mace', 'Windu','Windu@example.com', '28070-001-12-00'));
-Users.push(new CreateUser(1, 'Padmé', 'Amidala','hAmidala@example.com', '23376-423-32-12'));
-// console.log(Users);
+Users.push(
+    new CreateUser(10, 'Han', 'Solo', 'hanSolo@example.com', '28076-543-22-11'),
+    new CreateUser(9, 'Obi-Wan', 'Kenobi', 'obiKenobi@example.com', '38098-772-12-33'),
+    new CreateUser(3, 'Luke', 'Skywalker', 'SkywalkerL@example.com', '21086-535-27-78'),
+    new CreateUser(2, 'Darth', 'Vader', 'dVader@example.com', '28336-143-02-91'),
+    new CreateUser(5, 'Yoda', 'Jedi Master', 'Yoda@example.com', '38076-343-32-11'),
+    new CreateUser(8, 'Princess', 'Leia', 'prLeia@example.com', '38046-643-42-91'),
+    new CreateUser(7, 'R2', 'D2', 'D2@example.com', '38098-836-11-99'),
+    new CreateUser(6, 'Chewbacca', 'Wookiee', 'Wookiee@example.com', '28376-576-22-90'),
+    new CreateUser(4, 'Mace', 'Windu', 'Windu@example.com', '28070-001-12-00'),
+    new CreateUser(1, 'Padmé', 'Amidala', 'hAmidala@example.com', '23376-423-32-12'));
+
 
 // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 let filteredUsers = Users.filter(item => item.id % 2 === 0);
@@ -44,16 +45,18 @@ class Client {
 }
 
 const Clients = [];
-Clients.push(new Client(1, 'Han', 'Solo', 'hanSolo@example.com', '28076-543-22-11', new Array('lemon', 'babanas', 'orange')));
-Clients.push(new Client(4, 'Obi-Wan', 'Kenobi', 'obiKenobi@example.com', '38098-772-12-33', new Array('lemon')));
-Clients.push(new Client(3, 'Luke', 'Skywalker', 'SkywalkerL@example.com', '21086-535-27-78', new Array('lemon', 'babanas', 'orange','lime')));
-Clients.push(new Client(2, 'Darth', 'Vader', 'dVader@example.com', '28336-143-02-91', new Array('lemon', 'babanas')));
-Clients.push(new Client(5, 'Yoda', 'Jedi Master', 'Yoda@example.com', '38076-343-32-11', new Array('lemon', 'babanas', 'orange','milk','potatos')));
-Clients.push(new Client(8, 'Princess', 'Leia', 'prLeia@example.com', '38046-643-42-91', new Array('lemon', 'babanas', 'orange','bread','milk','butter','juice')));
-Clients.push(new Client(7, 'R2', 'D2', 'D2@example.com', '38098-836-11-99', new Array('milk', 'chocolate', 'orange','rice','icecream','bread','fanta','biscuit')));
-Clients.push(new Client(6, 'Chewbacca', 'Wookiee', 'Wookiee@example.com', '28376-576-22-90', new Array('lemon', 'bouble', 'meat')));
-Clients.push(new Client(9, 'Mace', 'Windu', 'Windu@example.com', '28070-001-12-00', new Array('cake', 'babanas', 'watermelon','fish')));
-Clients.push(new Client(10, 'Padmé', 'Amidala', 'hAmidala@example.com', '23376-423-32-12', new Array('lemon', 'lime', 'parsley')));
+Clients.push(
+    new Client(1, 'Han', 'Solo', 'hanSolo@example.com', '28076-543-22-11', new Array('lemon', 'babanas', 'orange')),
+    new Client(4, 'Obi-Wan', 'Kenobi', 'obiKenobi@example.com', '38098-772-12-33', new Array('lemon')),
+    new Client(3, 'Luke', 'Skywalker', 'SkywalkerL@example.com', '21086-535-27-78', new Array('lemon', 'babanas', 'orange', 'lime')),
+    new Client(2, 'Darth', 'Vader', 'dVader@example.com', '28336-143-02-91', new Array('lemon', 'babanas')),
+    new Client(5, 'Yoda', 'Jedi Master', 'Yoda@example.com', '38076-343-32-11', new Array('lemon', 'babanas', 'orange', 'milk', 'potatos')),
+    new Client(8, 'Princess', 'Leia', 'prLeia@example.com', '38046-643-42-91', new Array('lemon', 'babanas', 'orange', 'bread', 'milk', 'butter', 'juice')),
+    new Client(7, 'R2', 'D2', 'D2@example.com', '38098-836-11-99', new Array('milk', 'chocolate', 'orange', 'rice', 'icecream', 'bread', 'fanta', 'biscuit')),
+    new Client(6, 'Chewbacca', 'Wookiee', 'Wookiee@example.com', '28376-576-22-90', new Array('lemon', 'bouble', 'meat')),
+    new Client(9, 'Mace', 'Windu', 'Windu@example.com', '28070-001-12-00', new Array('cake', 'babanas', 'watermelon', 'fish')),
+    new Client(10, 'Padmé', 'Amidala', 'hAmidala@example.com', '23376-423-32-12', new Array('lemon', 'lime', 'parsley')))
+
 Clients.sort((a, b) => a.order.length - b.order.length);
 console.log(Clients);
 // - Створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
@@ -164,16 +167,17 @@ class Cinderella{
 }
 
 let arrayLotOfCinderella = new Array();
-arrayLotOfCinderella.push(new Cinderella('Olga', 31, 35));
-arrayLotOfCinderella.push(new Cinderella('Alisa', 47, 41));
-arrayLotOfCinderella.push(new Cinderella('Tanya', 23, 38));
-arrayLotOfCinderella.push(new Cinderella('Sonya',18, 37));
-arrayLotOfCinderella.push(new Cinderella('Viktorika', 35, 40));
-arrayLotOfCinderella.push(new Cinderella('Svitlana', 36, 41));
-arrayLotOfCinderella.push(new Cinderella('Katya', 26,35));
-arrayLotOfCinderella.push(new Cinderella('Olena',50 , 40));
-arrayLotOfCinderella.push(new Cinderella('Alina',33,33));
-arrayLotOfCinderella.push(new Cinderella('Anna',32,38));
+arrayLotOfCinderella.push(
+    new Cinderella('Olga', 31, 35),
+    new Cinderella('Alisa', 47, 41),
+    new Cinderella('Tanya', 23, 38),
+    new Cinderella('Sonya',18, 37),
+    new Cinderella('Viktorika', 35, 40),
+    new Cinderella('Svitlana', 36, 41),
+    new Cinderella('Katya', 26,35),
+    new Cinderella('Olena',50 , 40),
+    new Cinderella('Alina',33,33),
+    new Cinderella('Anna',32,38))
 
 class PrinceCreator{
     constructor(name, age, sizeOfShoe) {

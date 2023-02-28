@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9a9004-87d6-4f7a-86d3-3e6b821345fc" name="Changes" comment="add additional tasks lesson 8&#10;правки">
-      <change beforePath="$PROJECT_DIR$/Lesson5/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8/homeWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8/homeWork.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <workItem from="1675705818478" duration="2072000" />
       <workItem from="1675716321284" duration="2222000" />
       <workItem from="1675772337851" duration="61854000" />
-      <workItem from="1676584639058" duration="45079000" />
+      <workItem from="1676584639058" duration="47032000" />
     </task>
     <task id="LOCAL-00001" summary="In com1">
       <created>1675550184042</created>
@@ -146,11 +146,29 @@
       <option name="project" value="LOCAL" />
       <updated>1677450167422</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add additional tasks lesson 8&#10;правки">
+      <created>1677450577584</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677450577584</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="In com1" />
