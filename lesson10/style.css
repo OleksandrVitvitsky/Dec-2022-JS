@@ -1,0 +1,145 @@
+body{
+    margin: 20px;
+}
+.descr > p {
+    margin: 20px;
+}
+#box-form1{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box-form1 > form{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px darkred solid;
+
+}
+#box-form1 button{
+    width: 65%;
+    margin-bottom: 10px;
+}
+.label_t1{
+    display:flex;
+    justify-content: center;
+    /*height: 50px;*/
+    align-items:center;
+    width: 85%;
+}
+.label_t1 input{
+    height: 80%;
+    width: 70%;
+    margin: 10px;
+}
+.label_t1 span{
+    width: 30%;
+    text-align: left;
+
+}
+.resultBox, .anchT3{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 22px;
+}
+#containerTask2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.boxTask2 {
+    width: 25%;
+    height: 150px;
+    background-color: cornflowerblue;
+    border: 1px black solid;
+    text-align: center;
+
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.boxTask2 {*/
+/*    margin: auto;*/
+/*}*/
+#containerTask2 > button{
+    width: 25%;
+    margin: 10px;
+}
+
+/*==========================*/
+
+.mainBox {
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.itemBox {
+    background-color: rgba(167, 206, 245, 0.66);
+    width: 200px;
+    height: 150px;
+    border: 1.5px black solid;
+    border-radius: 10px;
+    text-align: center;
+    justify-items: center;
+    box-sizing: border-box;
+    margin: 10px;
+
+}
+
+#arrayElements, .buttons{
+    width: 100vw;
+    height: 100%;
+    /*background-color: lightgray;*/
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table td {
+    border: 1.5px solid #5a91a1;
+    width: 120px;
+    height: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+}
+
+ .form_task2{
+    margin-top: 50px;
+    background: powderblue;
+    width: 100vw;
+    /*height: 50px;*/
+    align-items: center;
+
+}
+#table1{
+    margin-top: 50px;
+}
+
+#table1 > tr, #table1 > td {
+    border: 1px solid black;
+}
+
+#table1 > td {
+    height: 45px;
+    width: 150px;
+    text-align: center;
+}

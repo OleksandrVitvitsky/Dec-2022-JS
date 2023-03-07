@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home work(lesson 10)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id = 'task1'>
+    <div class = 'descr'>
+        <h2>Завдання №1</h2>
+        <p><b> Створити форму з трьома полями для name,surname,age та кнопкою.
+            При натисканні на кнопку зчитати данні з полів, та вивести об'єкт в документ.
+            Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом</b>
+        </p>
+    </div>
+    <div id="box-form1">
+        <form name = 'form1'>
+
+            <label class="label_t1">
+                <span><b>Name:</b></span>
+                <input type="text"
+                             name="name"
+                             value=""
+                             placeholder="enter your name"
+                required>
+            </label>
+
+            <label class="label_t1">
+                <span><b>Surname:</b> </span>
+                <input type="text"
+                                name="surname"
+                                value=""
+                                placeholder="enter your surname"
+                required>
+            </label>
+
+            <label class="label_t1">
+                <span><b>Your age:</b></span>
+                <input type="number"
+                                     name="age"
+                                     value=""
+                                     min=0;
+                                     placeholder="enter your age"
+                required>
+            </label>
+            <button>
+                Save
+            </button>
+<!--                <p class="result_t1"></p>-->
+        </form>
+
+    </div>
+</div>
+
+<div id='task2'>
+    <div class='descr'>
+        <h2>Завдання №2</h2>
+        <p><b>На сторінці є блок, я кому знаходиьтся цифра. Написати код, який при кожному перезавантажені сторінки буде
+            додавати до неї +1</b></p>
+    </div>
+    <div id='containerTask2'>
+        <div class='boxTask2'></div>
+        <button id = 'refreshTask2'>
+            Refresh
+        </button>
+    </div>
+</div>
+
+<div id='task3'>
+    <div class='descr'>
+        <h2>Завдання №3</h2>
+        <p><b>Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховще, в масив sessions зберігається інформація про дату та час відвідування сторінки.
+            Є ще сторінка sessions.html (назва довільна),
+            при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html. 
+            Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессію
+            </b></p>
+    </div>
+    <div class='anchT3'>
+        <a href="./sessions.html" target="_blank">Timing of visiting this page</a>
+    </div>
+</div>
+<div id='task4'>
+    <div class="descr">
+        <h2>Завдання №4</h2>
+        <p><b> Зробити масив на 100 об'єктів та дві кнопки prev next
+            При завантажені сторінки з'являються перші 10 об'єктів.
+            При натисканні next виводяться настпні 10 об'єктів
+            При натисканні prev виводяться попередні 10 об'єктів
+        </b></p>
+    </div>
+    <div class="containerTask4">
+        <div id="arrayElements">
+        </div>
+        <div class="buttons">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+        </div>
+
+    </div>
+
+
+</div>
+<div id="task5">
+    <div class="descr">
+        <h2>Завдання №5</h2>
+        <p><b> Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
+            При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+            (Додатковачастина для завдання)
+
+        </b></p>
+        <p>Дане завдання виконане в попередньому домашньому завданні, але на всякий випадок перенесу в поточне </p>
+        <div class="containerTask5">
+
+
+        </div>
+    </div>
+</div>
+<script src='./lesson10.js'></script>
+
+</body>
+</html>
